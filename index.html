@@ -16,7 +16,6 @@
         <a href="#">Group Members</a>
         <a href="#">Projects</a>
         <a href="#">Research Facilities</a>
-        <a href="#">Projects</a>
         <a href="#">Publications</a>
         <a href="#">PhD Students & Topics</a>
         <a href="#">M. Tech & JRFs</a>
@@ -26,7 +25,16 @@
 
 <div id="main">
   <button class="openbtn" onclick="openNav()" id="hkl"><i class="fa fa-bars"></i></button>
-  <img src="asset/banner.png" class="responsiveban">
+  <div class="slidu">
+    <img class="responsiveban" src="asset/IMG-20211027-WA0043.jpg">
+    <img class="responsiveban" src="asset/IMG-20211027-WA0044.jpg">
+    <img class="responsiveban" src="asset/IMG-20211027-WA0045.jpg">
+    <img class="responsiveban" src="asset/IMG-20211027-WA0046.jpg">
+    <img class="responsiveban" src="asset/IMG-20211027-WA0047.jpg">
+    <img class="responsiveban" src="asset/IMG-20211027-WA0048.jpg">
+    <img class="responsiveban" src="asset/IMG-20211027-WA0049.jpg">
+  </div>
+  <!-- <img src="asset/IMG-20211027-WA0043.jpg" class="responsiveban"> -->
   <p>Thinfilm photovoltaic lab, School of Electronics Engineering, KIIT (Deemed to be University) is a
     research lab under the supervision of Dr. Udai P. Singh, Professor, School of Electronics Engineering.
     The major research areas are : </p>
@@ -42,6 +50,22 @@
   students from B.Tech , M.Tech and PhD are doing research in this lab.</p>
 </div>
 <hr>
+<script>
+  var myIndex = 0;
+  carousel();
+  
+  function carousel() {
+    var i;
+    var x = document.getElementsByClassName("responsiveban");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+  }
+</script>  
 <script src="js/script.js"></script>
    
 </body>
