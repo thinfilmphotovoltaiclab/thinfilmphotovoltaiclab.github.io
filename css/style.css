@@ -74,6 +74,17 @@ body {
       padding-left: 5%;
   }
 
+  .mahe{
+    display: block;
+    font-size: 2em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+    text-align: center;
+  }
+
   p{
       font-size: 100%;
   }
@@ -282,4 +293,5 @@ body {
     .hula {font-size: 10px;}
     .collapsible {font-size: 5px;}
     td {font-size: 20%;}
+    .mahe{font-size: .67em; margin-top: 2.33em; margin-bottom: 2.33em;}
   }
