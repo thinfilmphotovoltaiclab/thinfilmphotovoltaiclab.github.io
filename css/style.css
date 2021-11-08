@@ -126,6 +126,19 @@ body {
       padding-bottom: 5%;
   }
 
+  .responsivehead{
+    width: 40%;
+    clear: both;
+  }
+
+  .headimg{
+    clear: both;
+  }
+
+  .headinf{
+    clear: both;
+  }
+
   .repon{
       clear: left;
       float: right;
