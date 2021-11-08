@@ -133,10 +133,13 @@ body {
 
   .headimg{
     clear: both;
+    float: left;
   }
 
   .headinf{
     clear: both;
+    float: left;
+    display: block;
   }
 
   .repon{
