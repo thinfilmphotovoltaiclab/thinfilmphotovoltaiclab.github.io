@@ -129,6 +129,9 @@ body {
   .responsivehead{
     width: 40%;
     clear: both;
+    display: block;
+    margin: auto;
+    float: none;
   }
 
   .headimg{
