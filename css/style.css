@@ -74,6 +74,17 @@ body {
       padding-left: 5%;
   }
 
+  .mahel{
+    display: block;
+    font-size: 4em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+    text-align: center;
+  }
+
   .mahe{
     display: block;
     font-size: 2em;
@@ -294,4 +305,5 @@ body {
     .collapsible {font-size: 5px;}
     td {font-size: 20%;}
     .mahe{font-size: .67em; margin-top: 2.33em; margin-bottom: 2.33em;}
+    .mahel{font-size: 1em; margin-top: 2.33em; margin-bottom: 2.33em;}
   }
