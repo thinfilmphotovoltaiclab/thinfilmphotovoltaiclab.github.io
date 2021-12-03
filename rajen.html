@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Thin Film Photovoltaic Lab</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+
+<div id="mySidebar" class="sidebar">
+    <div class="dropdown-container">
+        <a href="ghead.html">Group Head</a>
+        <a href="#">Group Members</a>
+        <a href="#">Projects</a>
+        <a href="#">Research Facilities</a>
+        <a href="#">Publications</a>
+        <a href="#">PhD Students & Topics</a>
+        <a href="#">M. Tech & JRFs</a>
+        <a href="#">Events</a>
+    </div>
+</div>
+
+<div id="main">
+  <button class="openbtn" onclick="openNav()" id="hkl"><i class="fa fa-bars"></i></button>
+  <!-- <p class="mahel">The Group Head</p> -->
+  <img src="asset/raje.jpg" class="responsivehead responsiveban">
+</div>
+<div class="headinf">
+  <p class="mahe">Professor Rajendra Prasad, Assistant Professor</p>
+  <p class="maiu"><a href="mailto:rprasadfet@kiit.ac.in">rprasadfet@kiit.ac.in</a></p>
+  <p>Mr Rajendra Prasad has eight years of experience in education, teaching postgraduate and undergraduate courses in KIIT Deemed University, Bhubaneshwar. During that time he also carried out his research in the field of VlSI and Microelectronics and published his work in journals and conferences.He has an M.Tech degree in VLSI-Design from VIT Deemed University, Vellore and currently pursuing His PhD from KIIT Deemed University, Bhubaneshwar.</p>
+  <h4>Qualification</h4>
+  M.Tech,PhD(Pursuing)
+  <h4>Interests</h4>
+  VLSI-Design,Thin film Photovoltaics,Analog and Mixed signal IC design,CIGS based thin film solar cells
+  <h4>Administrative Responsibility</h4>
+  Head Student activity KIIT School of Electronics engineering,Deputy Superitendent Hostel
+  <h4>Memberships</h4>
+  Indian Science Congress
+</div>
+<script>
+  var myIndex = 0;
+  carousel();
+  
+  function carousel() {
+    var i;
+    var x = document.getElementsByClassName("responsiveban");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+  }
+</script>  
+<script src="js/script.js"></script>
+   
+</body>
+</html> 

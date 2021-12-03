@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Thin Film Photovoltaic Lab</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+
+<div id="mySidebar" class="sidebar">
+    <div class="dropdown-container">
+        <a href="ghead.html">Group Head</a>
+        <a href="#">Group Members</a>
+        <a href="#">Projects</a>
+        <a href="#">Research Facilities</a>
+        <a href="#">Publications</a>
+        <a href="#">PhD Students & Topics</a>
+        <a href="#">M. Tech & JRFs</a>
+        <a href="#">Events</a>
+    </div>
+</div>
+
+<div id="main">
+  <button class="openbtn" onclick="openNav()" id="hkl"><i class="fa fa-bars"></i></button>
+  <!-- <p class="mahel">The Group Head</p> -->
+  <img src="asset/arinba.jpg" class="responsivehead responsiveban">
+</div>
+<div class="headinf">
+  <p class="mahe">Professor Arindam Basak, Assistant Professor</p>
+  <p class="maiu"><a href="mailto:abasakfet@kiit.ac.in">abasakfet@kiit.ac.in</a></p>
+  <p>Arindam Basak has 7+ years of experience in education and teaching. He had completed his graduation from the University of Kalyani, West Bengal and after that completed his post-graduation from Jadavpur University, West Bengal. He has completed his doctoral degree from the Indian Institute of Engineering Science and Technology, Shibpur, West Bengal. His main research interest is Thin-film photovoltaics, sensor technology. He has authored a number of national and international journals. He is teaching courses on Control Systems, Power Plant Instrumentation, Measurement and Instrumentation, Basic Electronics, Electrical and Electronics Measurement, Analytical Instrumentation, Industrial Automation and Control. Apart from being a faculty, He is also the Associate Dean of Training and Placement for his department.</p>
+  <h4>Qualification</h4>
+  M.Tech,PhD(Pursuing)
+  <h4>Interests</h4>
+  Thin Film Photovoltaics, Sensor, Biofuel
+  <h4>Administrative Responsibility</h4>
+  FIC Btech Project, Associate Dean of Training and Placement
+  <h4>Memberships</h4>
+  Life Member (ISTE, ISCA)
+</div>
+<script>
+  var myIndex = 0;
+  carousel();
+  
+  function carousel() {
+    var i;
+    var x = document.getElementsByClassName("responsiveban");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+  }
+</script>  
+<script src="js/script.js"></script>
+   
+</body>
+</html> 

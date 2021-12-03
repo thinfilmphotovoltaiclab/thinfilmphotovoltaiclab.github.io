@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Thin Film Photovoltaic Lab</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+
+<div id="mySidebar" class="sidebar">
+    <div class="dropdown-container">
+        <a href="ghead.html">Group Head</a>
+        <a href="#">Group Members</a>
+        <a href="#">Projects</a>
+        <a href="#">Research Facilities</a>
+        <a href="#">Publications</a>
+        <a href="#">PhD Students & Topics</a>
+        <a href="#">M. Tech & JRFs</a>
+        <a href="#">Events</a>
+    </div>
+</div>
+
+<div id="main">
+  <button class="openbtn" onclick="openNav()" id="hkl"><i class="fa fa-bars"></i></button>
+  <!-- <p class="mahel">The Group Head</p> -->
+  <img src="asset/sutan.jpg" class="responsivehead responsiveban">
+</div>
+<div class="headinf">
+  <p class="mahe">Professor Sutanu Mangal, Assistant Professor</p>
+  <p class="maiu"><a href="mailto:sutanufpy@kiit.ac.in">sutanufpy@kiit.ac.in</a></p>
+  <p>Dr. S. Mangal completed his PhD degree from IIT Kharagpur in 2011, during his PhD he had received EU Fellowship from Ministry of University, Govt of Italy. Later he joined in KIIT in 2011 as an assistant professor in department of physics. He did his post doc in Academia sinica in Taipei, Taiwan. Dr. S. Mangal has 7 years academic experiences and 10 years research experiences. His field of research topic is experimental condensed matter physics, semiconductor science and technology.</p>
+  <h4>Qualification</h4>
+  M.Tech,PhD
+  <h4>Interests</h4>
+  Thin Film Technology, Semiconductor Physics, Semiconductor Devices, Condensed Matter Physics
+  <h4>Administrative Responsibility</h4>
+  Internal Board of Studies Member (Physics), KISS Coordinator (Physics)
+</div>
+<script>
+  var myIndex = 0;
+  carousel();
+  
+  function carousel() {
+    var i;
+    var x = document.getElementsByClassName("responsiveban");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+  }
+</script>  
+<script src="js/script.js"></script>
+   
+</body>
+</html> 
