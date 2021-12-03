@@ -316,6 +316,16 @@ body {
     text-align: center;
     margin: auto;
   }
+
+  table.tetab{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #facuna{
+    font-size: 2em;
+    font-weight: 500;
+  }
   
   
   /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
