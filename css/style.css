@@ -329,7 +329,7 @@ body {
 
   #proju{
     font-size: 1.5em;
-    font-weight: 500;
+    font-weight: 1000;
   }
   
   
@@ -345,4 +345,6 @@ body {
     td {font-size: 20%;}
     .mahe{font-size: .67em; margin-top: 2.33em; margin-bottom: 2.33em;}
     .mahel{font-size: 1em; margin-top: 2.33em; margin-bottom: 2.33em;}
+    #proju{font-size: 1em;}
+    #facuna{font-size: 1.5em;}
   }
