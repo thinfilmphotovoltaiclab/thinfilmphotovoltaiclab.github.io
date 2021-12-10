@@ -331,6 +331,11 @@ body {
     font-size: 1.5em;
     font-weight: 1000;
   }
+
+  .mudel{
+    width: 20%;
+    height: auto;
+  }
   
   
   /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
