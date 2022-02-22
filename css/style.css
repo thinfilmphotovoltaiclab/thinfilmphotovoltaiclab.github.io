@@ -134,6 +134,14 @@ body {
     float: none;
   }
 
+  .responsivecon{
+    width: 20%;
+    clear: both;
+    display: block;
+    margin: auto;
+    float: none;
+  }
+
   .headimg{
     clear: both;
     float: left;
@@ -344,6 +352,11 @@ body {
 
   .phmohe{
     font-weight: 1000;
+  }
+
+  .attrj{
+    font-size: 0.01em;
+    color: rgb(255, 255, 255);
   }
   
   
