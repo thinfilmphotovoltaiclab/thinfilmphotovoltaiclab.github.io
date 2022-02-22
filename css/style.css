@@ -336,6 +336,15 @@ body {
     width: 80%;
     height: auto;
   }
+
+  .phtohe{
+    font-size: 2em;
+    font-weight: 1000;
+  }
+
+  .phmohe{
+    font-weight: 1000;
+  }
   
   
   /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
@@ -352,4 +361,5 @@ body {
     .mahel{font-size: 1em; margin-top: 2.33em; margin-bottom: 2.33em;}
     #proju{font-size: 1em;}
     #facuna{font-size: 1.5em;}
+    .phtohe{font-size: 1em;}
   }
